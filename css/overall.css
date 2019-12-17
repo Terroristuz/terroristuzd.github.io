@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: 1px red solid; */
+}
+
+/* ----------------TAGS---------------------------- */
+header {
+    background: #fcdb00;
+    padding-top: 45px;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+h1,
+h2,
+p {
+    display: flex;
+    font-family: 'Source Sans Pro';
+    text-decoration: none;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 400;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* ------------------COLORS---------------------------- */
+.black {
+    color: black;
+}
+
+.grey {
+    color: grey;
+}
+
+.white {
+    color: white;
+}
+
+/* ------------------CLASSES--------------------------- */
+
+.limiter-block {
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+}

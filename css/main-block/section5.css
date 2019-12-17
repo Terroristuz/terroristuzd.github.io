@@ -1,0 +1,78 @@
+.stats-section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* -------------- STATS BLOCKS ------------------*/
+.stats {
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.stats-block {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100%;
+    margin: 0 10px;
+}
+
+.stats-block>div {
+    align-items: flex-end;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.stats-block>h3 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.stats-block>p {
+    font-size: 16px;
+    text-align: center;
+}
+
+/* -----------------------STATS ANSWER--------------- */
+.stats-answer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.stats-answer>h3 {
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.stats-answer>p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.answer-text>div:first-child {
+    align-items: flex-start;
+}
+
+.answer-text>div:last-child {
+    align-items: flex-end;
+}
+
+.answer-text>h3 {
+    font-size: 20px;
+    margin: 0 50px;
+}
+
+.answer-text > div > p {
+    font-size: 36px;
+    font-weight: 700;
+}

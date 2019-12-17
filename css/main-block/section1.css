@@ -1,0 +1,40 @@
+.features-section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 110px;
+}
+/* ---------------FEATURES BLOCKS--------------- */
+.features {
+    margin: 80px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.features-block {
+    flex-wrap: nowrap;
+    width: 300px;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.features-block>img {
+    width: 60px;
+    height: 50px;
+}
+
+.features-block>div {
+    width: 240px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.features-block>div>h3 {
+    font-weight: 700;
+}
+
+.features-block>div>p {
+    font-size: 16px;
+}

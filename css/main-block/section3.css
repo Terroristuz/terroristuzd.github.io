@@ -1,0 +1,79 @@
+.our-works-section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* -------------------OUR-WORKS BLOCKS--------------------- */
+.our-works {
+    align-items: center;
+    justify-content: center;
+    margin: 80px 0;
+}
+
+.our-works-block {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    margin: 0 10px;
+    margin-bottom: 30px;
+}
+.our-works-block > h3 {
+    font-weight: 700;
+}
+.our-works-block > p {
+    font-size: 15px;
+}
+
+.our-works-block>div {
+    width: 100%;
+    height: 230px;
+}
+
+.our-works-block>div:hover .our-works-block-trigger {
+    display: flex;
+}
+
+/* ----Background image our-works-block */
+.our-works-block:nth-child(1) > div {
+    background: black;
+}
+
+.our-works-block:nth-child(2) > div {
+    background: url(../../img/art1.jpg) 50% 50% / cover;
+}
+
+.our-works-block:nth-child(3) > div {
+    background: url(../../img/art2.jpg) 50% 50% / cover;
+}
+
+.our-works-block:nth-child(4) > div {
+    background: url(../../img/art3.jpg) 50% 50% / cover;
+}
+
+.our-works-block:nth-child(5) > div {
+    background: url(../../img/art4.jpg) 50% 50% / cover;
+}
+
+.our-works-block:nth-child(6) > div {
+    background: url(../../img/art5.jpg) 50% 50% / cover;
+}
+
+.our-works-block:nth-child(7) > div {
+    background: url(../../img/art6.jpg) 50% 50% / cover;
+}
+
+.our-works-block:nth-child(8) > div {
+    background: url(../../img/art7.jpg) 50% 50% / cover;
+}
+
+/* --- */
+.our-works-block-trigger {
+    display: none;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: space-between;
+}

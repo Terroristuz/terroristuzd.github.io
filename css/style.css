@@ -1,0 +1,13 @@
+@import 'fonts/stylesheet.css';
+@import 'overall.css';
+/* ------- */
+@import 'header.css';
+/* ------- */
+@import 'main-block/section1.css';
+@import 'main-block/section2.css';
+@import 'main-block/section3.css';
+@import 'main-block/section4.css';
+@import 'main-block/section5.css';
+@import 'main-block/section6.css';
+/* ------- */
+@import 'footer.css';
